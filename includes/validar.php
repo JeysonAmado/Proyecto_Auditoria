@@ -1,5 +1,5 @@
 <?php
-$conexion= mysqli_connect("localhost", "root", "", "r_user");
+$conexion= mysqli_connect("localhost", "root", "admin", "r_user");
 
 if(isset($_POST['registrar'])){
 

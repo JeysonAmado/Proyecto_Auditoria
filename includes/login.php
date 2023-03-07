@@ -21,10 +21,9 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <br>
-           
-                   <br>
+                        <br>
                                     <h3 class="text-center">Iniciar Sesión</h3>
-                       <br>
+                        <br>
                             <div class="form-group">
                                 <label for="correo">Usuario:</label><br>
                                 <input type="text" name="nombre" id="nombre" class="form-control" required>
@@ -36,8 +35,8 @@
                             </div>
                             <div class="form-group">
                              <br>
-                    <center>
-                                <input type="submit"class="btn btn-success" value="Ingresar">   
+                                <center>
+                                    <input type="submit"class="btn btn-success" value="Ingresar">   
                                 </center>
                         </form>
                     </div>
