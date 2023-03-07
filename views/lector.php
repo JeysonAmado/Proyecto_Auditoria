@@ -43,6 +43,9 @@ if( $validar == null || $validar = ''){
       <a class="btn btn-warning" href="../includes/_sesion/cerrarSesion.php">Log Out
       <i class="fa fa-power-off" aria-hidden="true"></i>
        </a>
+       <a class="btn btn-primary" href="../includes/lectorexcel.php">Excel
+       <i class="fa fa-table" aria-hidden="true"></i>
+       </a>
 
 		</div>
 		<br>
