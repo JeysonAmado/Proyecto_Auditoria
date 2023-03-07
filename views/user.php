@@ -35,6 +35,7 @@ if( $validar == null || $validar = ''){
 
 <div class="col-xs-12">
   		<h1>Bienvenido Administrador <?php echo $_SESSION['nombre']; ?></h1>
+      <h1> <?php echo $_SESSION['number']; ?></h1>
       <br>
 		<h1>Lista de usuarios</h1>
     <br>
@@ -81,7 +82,7 @@ if( $validar == null || $validar = ''){
 
 				<?php
 
-$conexion=mysqli_connect("localhost","root","","r_user");               
+$conexion=mysqli_connect("localhost","root","admin","r_user");               
 $SQL="SELECT user.id, user.nombre, user.correo, user.password, user.telefono,
 user.fecha, permisos.rol FROM user
 LEFT JOIN permisos ON user.rol = permisos.id";
