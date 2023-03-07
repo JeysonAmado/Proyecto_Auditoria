@@ -40,11 +40,15 @@ if( $validar == null || $validar = ''){
     <br>
 		<div>
 			<a class="btn btn-success" href="../index.php">Nuevo usuario 
-      <i class="fa fa-plus"></i> </a>
+       </a>
       <a class="btn btn-warning" href="../includes/_sesion/cerrarSesion.php">Log Out
       <i class="fa fa-power-off" aria-hidden="true"></i>
        </a>
 
+       <a class="btn btn-primary" href="../includes/excel.php">Excel
+       <i class="fa fa-table" aria-hidden="true"></i>
+       </a>
+       <a href="../includes/reporte.php" class="btn btn-primary"><b>PDF</b> </a>
 		</div>
 		<br>
 
@@ -100,11 +104,11 @@ if($dato -> num_rows >0){
 <td>
 
 
-<a class="btn btn-warning" href="editar_user.php?id=<?php echo $fila['id']?> ">Editar
-<i class="fa fa-edit"></i> </a>
+<a class="btn btn-warning" href="editar_user.php?id=<?php echo $fila['id']?> ">
+Editar</a>
 
-  <a class="btn btn-danger" href="eliminar_user.php?id=<?php echo $fila['id']?>">Eliminar
-<i class="fa fa-trash"></i></a>
+  <a class="btn btn-danger" href="eliminar_user.php?id=<?php echo $fila['id']?>">
+Eliminar</a>
 
 </td>
 </tr>
